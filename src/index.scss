@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid rgb(140 140 140);
+  background-color: grey;
+
+  th,
+  td {
+    background-color: white;
+    border: 1px solid rgb(160 160 160);
+    padding: 10px;
+  }
+
+  tr{
+    display: flex;
+
+    td, th{
+      width: 200px;
+    }
+  }
+
+  .empty{
+    background-color: grey;
+  }
+
+  th {
+    vertical-align: bottom;
+  }
+
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+}
+
+.green{
+  background-color: green;
+}

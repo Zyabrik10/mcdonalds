@@ -1,0 +1,18 @@
+{
+ "version": "1.0.0",
+ "description": "The learning English app",
+ "author": "Zyabrik10",
+ "source": "src/index.ejs",
+ "scripts": {
+  "start": "parcel",
+  "build": "parcel build src/index.ejs --public-url ./",
+  "deploy": "npm run build && gh-pages -d dist"
+ },
+ "dependencies": {
+  "parcel": "^2.15.4"
+ },
+ "devDependencies": {
+  "@parcel/transformer-sass": "^2.15.4",
+  "parcel-transformer-ejs": "^1.0.1"
+ }
+}
