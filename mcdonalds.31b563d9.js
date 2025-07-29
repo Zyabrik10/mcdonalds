@@ -160,11 +160,11 @@
       });
     }
   }
-})({"4ReUm":[function(require,module,exports,__globalThis) {
+})({"eNVno":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 56077;
+var HMR_SERVER_PORT = 61688;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -839,8 +839,8 @@ let bShiftTime = b.reduceRight((acc, val)=>acc + val.shiftTime, 0);
 let c = 25;
 let aSal = aShiftTime * c;
 let bSal = bShiftTime * c;
-caption.innerHTML = `Alex1 - Shift time = ${aShiftTime} Salary = ${aSal}z\u{142} <br> Alex2 - Shift time = ${bShiftTime} Salary = ${bSal}z\u{142}`;
+caption.innerHTML = `Alex1 - Days = ${a.length} Shift time = ${aShiftTime} Salary = ${aSal}z\u{142} <br> Alex2 - Days = ${b.length} Shift time = ${bShiftTime} Salary = ${bSal}z\u{142}`;
 
-},{}]},["4ReUm","a0t4e"], "a0t4e", "parcelRequire94c2", {})
+},{}]},["eNVno","a0t4e"], "a0t4e", "parcelRequire94c2", {})
 
 //# sourceMappingURL=mcdonalds.31b563d9.js.map
