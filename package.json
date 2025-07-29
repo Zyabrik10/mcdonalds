@@ -1,6 +1,6 @@
 {
  "version": "1.0.0",
- "description": "The learning English app",
+ "description": "McDonald's",
  "author": "Zyabrik10",
  "source": "src/index.ejs",
  "scripts": {
@@ -9,6 +9,7 @@
   "deploy": "npm run build && gh-pages -d dist"
  },
  "dependencies": {
+  "gh-pages": "^6.3.0",
   "parcel": "^2.15.4"
  },
  "devDependencies": {
