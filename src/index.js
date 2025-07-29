@@ -211,4 +211,4 @@ let aSal = aShiftTime * c;
 let bSal = bShiftTime * c;
 
 
-caption.innerHTML = `Alex1 - Shift time = ${aShiftTime} Salary = ${aSal}zł <br> Alex2 - Shift time = ${bShiftTime} Salary = ${bSal}zł`;
+caption.innerHTML = `Alex1 - Days = ${a.length} Shift time = ${aShiftTime} Salary = ${aSal}zł <br> Alex2 - Days = ${b.length} Shift time = ${bShiftTime} Salary = ${bSal}zł`;
