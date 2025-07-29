@@ -811,7 +811,7 @@ tbody.insertAdjacentHTML("beforeend", `<tr>${days}</tr>`);
 function renderDay(d) {
     const aDay = a.filter(({ date })=>date.getDate() === d.getDate())[0];
     const bDay = b.filter(({ date })=>date.getDate() === d.getDate())[0];
-    return `<td class='${!aDay && !bDay ? "green" : ""}'>
+    return `<td class='${aDay && bDay || !aDay && !bDay ? "green" : ""}'>
     <p>${d.getDate()}</p>
     <div>
         <p>
